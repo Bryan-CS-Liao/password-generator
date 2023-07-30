@@ -45,4 +45,6 @@ random.shuffle(passwordList)
 password1 = ""
 for char in passwordList:
     password1 += char
-print(password1)
+#print(password1)
+
+print(f"Your password is: {password1}")
